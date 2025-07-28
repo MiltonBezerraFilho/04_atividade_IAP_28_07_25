@@ -16,3 +16,5 @@ while (populacao_x <= populacao_y):
     populacao_x = populacao_x + porcentagem_x
     populacao_y = populacao_y + porcentagem_y
 print(f'Levaram {anos} anos para X superar ou igualar a Y.')
+
+REVISAR ESSE AQUI
