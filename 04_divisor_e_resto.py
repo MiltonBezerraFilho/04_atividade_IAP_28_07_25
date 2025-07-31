@@ -8,7 +8,13 @@ dividendo. Logo, 20 ÷ 4 = 5, pois podemos subtrair 4 cinco vezes de 20.
 
 primeiro_num = int( input("Digite o primeiro número: "))
 segundo_num = int( input ("Digite o segundo número: "))
-resto = 0
+resto = primeiro_num
+divisoes = 0
 
-while ((primeiro_num - segundo_num) > segundo_num):
-    resultado =
+if (segundo_num == 0):
+    print("Erro matemático.")
+else:
+    while (resto >= segundo_num):
+        resto -= segundo_num
+        divisoes += 1
+print(f'O resultado é {divisoes} com resto {resto}.')
